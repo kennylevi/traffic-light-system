@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.title {
+  color: #002080;
+  font-family: "Brush Script MT", sans-serif;
+  text-decoration: underline;
+}
+
+.crucifix {
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.horizontal,
+.vertical {
+  position: absolute;
+  background-color: rgb(43, 43, 43);
+}
+
+.action__container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  z-index: 9;
+  left: 43%;
+}
